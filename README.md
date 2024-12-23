@@ -6,11 +6,12 @@
 - Removed a lot of Critical Sections.
 - Increased FPS on 8man (raid) or 8v8 PVP repsawn
 - Removed equipment score for less stuttery when browsing/comparing equipments
+- Port zlib to zlib-ng (with runtime check to use SSE/AVX/AVX2/AVX512 etc)
+- Decrease loading at startup by 6-10s or more depends on the system
+- Faster C libraries with SIMD
 
 ## Upcoming releases
-- Port zlib to use zlib-ng (runtime check to use AVX/AVX2/AVX512 etc)
-- Decrease loading at startup by 6-10s or more depends on the system
-- Use of SIMD on C libraries
+
 
 ## List of did not fix (might be a TODO)
 - Micro-stutters/stutters (most likely heap related or reading files that blocks the thread)
