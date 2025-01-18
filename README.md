@@ -1,4 +1,6 @@
 # DNPERF
+## Disclaimer
+Use at your own risk, I haven't fully tested this on raids, only tested in towns and PVP 8v8.
 ## List of changes
 - Port some functions of d3dx9math to DXMATH (compiled with AVX)
 - Ice stacks attach only once.
