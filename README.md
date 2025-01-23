@@ -10,15 +10,14 @@ Use at your own risk, I haven't fully tested this on raids, only tested in towns
 - Removed equipment score for less stuttery when browsing/comparing equipments
 - Port zlib to zlib-ng (with runtime check to use SSE/AVX/AVX2/AVX512 etc)
 - Decrease loading at startup by 6-10s or more depends on the system
-- Faster C libraries with SIMD
+- Faster C libraries with SIMD (runtime check to use SSE/AVX)
 
 ## Upcoming releases
-
-
+- Fixed memory leak pt.1
 ## List of did not fix (might be a TODO)
 - Micro-stutters/stutters (most likely heap related or reading files that blocks the thread)
-- Bad frametime (idk)
-
+- Better frametime
+- Find and fix memory leak
 ## How to use it
 ```
 └── Dragon Nest Folder
