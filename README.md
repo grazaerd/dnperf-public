@@ -21,7 +21,8 @@
 - Fix misaligned particles (Works on DX9).
 
 ## Upcoming releases
-- None
+- Use vcruntime140 for AVX2 memcpy/memset
+
 ## List of did not fix (might be a TODO)
 - Micro-stutters/stutters (most likely heap related or reading files that blocks the thread)
 - Better frametime
@@ -37,4 +38,4 @@
 Yeah no. Guess it why.
 
 ## Issue
-If you found an issue while using this, please create an issue on [Issues Section](https://github.com/dnblank123/dnperf-public/issues), and make sure to test it thoroughly, without and with the mod. If the issue is hard to notice, attach a video, otherwise, attach a picture.
+If you found an issue while using this, please create an issue on [Issues Section](https://github.com/grazaerd/dnperf-public/issues), and make sure to test it thoroughly, without and with the mod. If the issue is hard to notice, attach a video, otherwise, attach a picture.
