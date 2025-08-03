@@ -1,6 +1,7 @@
 # DNPERF
 ## Official clients and DX11 only.
 > - Tested on SEA. 
+> - No private server support.
 
 ## Disclaimer
 **Use at your own risk, especially getting banned or losing your raids.** I haven't fully tested this on raids, only tested in towns and PVP 8v8.
@@ -13,15 +14,16 @@
 - Increased FPS on 8man (raid) or 8v8 PVP repsawn
 - Removed equipment score for less stuttery when browsing/comparing equipments
 - Port zlib to zlib-ng (with runtime check to use SSE/AVX/AVX2/AVX512 etc)
-- Decrease loading at startup by 6-10s or more depends on the system
 - Faster C libraries with SIMD (runtime check to use SSE/AVX)
-- Fixed memory leak
+- Fixed memory leaks (total of 2)
 - Removed FXAA
 - Removed restore audio
 - Fix misaligned particles (Works on DX9).
-
+- vcruntime140 for AVX2 memcpy/memset
+- Much faster loading on start with a total time of 6 seconds. (on my PC)
+- High resolution timer for sleep
 ## Upcoming releases
-- Use vcruntime140 for AVX2 memcpy/memset
+- 
 
 ## List of did not fix (might be a TODO)
 - Micro-stutters/stutters (most likely heap related or reading files that blocks the thread)
