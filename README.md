@@ -18,7 +18,7 @@
 - Fixed memory leaks (total of 2)
 - Removed FXAA
 - Removed restore audio
-- Fix misaligned particles (Works on DX9).
+- Fix misaligned particles.
 - vcruntime140 for AVX2 memcpy/memset
 - Much faster loading on start with a total time of 6 seconds. (on my PC)
 - High resolution timer for sleep
