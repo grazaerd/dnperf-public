@@ -1,4 +1,9 @@
 # DNPERF
+
+## Discord channel
+I'm mostly active on discord, so if you want to ask something or report, use the invite code.
+code: xuMkmQJBPs
+
 ## Official clients and DX11 only.
 > - Tested on SEA. 
 > - No private server support.
