@@ -18,7 +18,7 @@ code: xuMkmQJBPs
 - Removed a lot of Critical Sections.
 - Increased FPS on 8man (raid) or 8v8 PVP repsawn
 - Removed equipment score for less stuttery when browsing/comparing equipments
-- Port zlib to zlib-ng (with runtime check to use SSE/AVX/AVX2/AVX512 etc)
+- Port zlib to libdeflate
 - Faster C libraries with SIMD (runtime check to use SSE/AVX)
 - Fixed memory leaks (total of 2)
 - Removed FXAA
