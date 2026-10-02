@@ -16,7 +16,7 @@ code: xuMkmQJBPs
 - Ice stacks attach only once.
 > - (Damage is still the same, ~~but I might find an alternative without affecting the visuals. Currently found a workaround and implementing it as soon as possible)~~. Will be sticking with "attach only once". It still frame drops with the other workaround.
 - Removed a lot of Critical Sections.
-- Increased FPS on 8man (raid) or 8v8 PVP repsawn
+- Increased FPS on 8man (raid) or 8v8 PVP respawn
 - Removed equipment score for less stuttery when browsing/comparing equipments
 - Port zlib to libdeflate
 - Faster C libraries with SIMD (runtime check to use SSE/AVX)
