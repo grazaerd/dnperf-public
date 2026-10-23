@@ -12,7 +12,7 @@ code: xuMkmQJBPs
 **Use at your own risk, especially getting banned or losing your raids.** I haven't fully tested this on raids, only tested in towns and PVP 8v8.
 
 ## List of changes
-- Port some functions of d3dx9math to DXMATH (compiled with AVX)
+- Port some functions of d3dx9math to DXMATH (compiled with AVX, AVX2 and AVX512(MM))
 - Ice stacks attach only once.
 > - (Damage is still the same, ~~but I might find an alternative without affecting the visuals. Currently found a workaround and implementing it as soon as possible)~~. Will be sticking with "attach only once". It still frame drops with the other workaround.
 - Removed a lot of Critical Sections.
