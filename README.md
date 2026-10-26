@@ -22,8 +22,7 @@ code: xuMkmQJBPs
 - Faster C libraries with SIMD (runtime check to use SSE/AVX)
 - Fixed memory leaks (total of 2)
 - Removed FXAA
-- Removed restore audio
-- Fix misaligned particles.
+- Fix misaligned particles (native implementation).
 - vcruntime140 for AVX2 memcpy/memset
 - Much faster loading on start with a total time of 6 seconds. (on my PC)
 - High resolution timer for sleep
